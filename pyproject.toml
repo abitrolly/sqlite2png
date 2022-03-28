@@ -1,0 +1,21 @@
+[project]
+name = "sqlite2png"
+version = "0.1.0"
+description = "Command line tool to get a png diagram of SQLite DB"
+readme = "README.md"
+license = {file = "UNLICENSE"}
+authors = [
+  {name="Anatoli Babenia", email="anatoli@rainforce.org"}
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Topic :: Database :: Front-Ends",
+     "Operating System :: OS Independent"
+]
+dependencies = [
+  "sqlalchemy-schemadisplay"
+]
+
+[project.urls]
+homepage = "https://github.com/abitrolly/sqlite2png"
