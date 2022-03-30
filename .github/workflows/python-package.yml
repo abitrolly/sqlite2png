@@ -42,7 +42,9 @@ jobs:
       run: python -m build
 
     - name: Test package 
-      run: python -m sqlite2png
+      run: |
+        pip install -m dist/sqlite2png*.whl
+        python -m sqlite2png
 
   # https://help.github.com/en/actions/language-and-framework-guides/using-python-with-github-actions#publishing-to-package-registries
   #deploy:
