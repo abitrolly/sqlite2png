@@ -22,7 +22,8 @@ Graphviz-cairo is recommended upstream to improve image quality.
 
 ### Roadmap
 
-* [ ] install command line script with pip
+* [ ] install command line script with `pip`
+  * [ ] de-vendorize `sqlalchemy_schemadisplay` after it is released
 * [ ] output .png to stdout
 * [ ] reproducuble 
 * [ ] option to show the image (needs PIL and image viewer)
