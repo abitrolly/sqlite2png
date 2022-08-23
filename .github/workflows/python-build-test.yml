@@ -27,6 +27,7 @@ jobs:
         python -m pip install build flake8 pytest
         # * [ ] find how to install dependencies from `pyproject.toml`
         #if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        python -c "import setuptools as s; print(s.__version__)"
     - name: Lint with flake8
       run: |
         # stop the build if there are Python syntax errors or undefined names

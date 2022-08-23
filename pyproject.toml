@@ -1,6 +1,6 @@
 [project]
 name = "sqlite2png"
-version = "0.1.0"
+version = "0.1.4"
 description = "Command line tool to get a png diagram of SQLite DB"
 readme = "README.md"
 license = {file = "UNLICENSE"}
