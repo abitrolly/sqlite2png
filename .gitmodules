@@ -1,0 +1,3 @@
+[submodule "fschulze_sqlalchemy_schemadisplay"]
+	path = fschulze_sqlalchemy_schemadisplay
+	url = https://github.com/fschulze/sqlalchemy_schemadisplay

@@ -3,6 +3,7 @@
 import os
 
 import sqlalchemy
+# vendored until 1.4 is released
 from sqlalchemy_schemadisplay import create_schema_graph
 
 
