@@ -15,6 +15,7 @@ classifiers = [
 ]
 dependencies = [
   "sqlalchemy",  # for opening database metadata
+  "pydot"        # for schemadisplay to lay out figures
 ]
 
 [tool.setuptools]
