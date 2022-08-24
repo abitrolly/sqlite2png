@@ -4,7 +4,7 @@ import os
 
 import sqlalchemy
 # vendored until 1.4 is released
-from sqlalchemy_schemadisplay import create_schema_graph
+from v140dev_sqlalchemy_schemadisplay import create_schema_graph
 
 
 def save_to_png(dburl, outpng):

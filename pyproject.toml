@@ -14,8 +14,10 @@ classifiers = [
   "Operating System :: OS Independent"
 ]
 dependencies = [
-  "sqlalchemy-schemadisplay @ https://github.com/fschulze/sqlalchemy_schemadisplay/archive/7c35dd35f07e55b2ed3880d62fcb4507152b7ac7.zip"
 ]
+
+[tool.setuptools]
+py-modules = ["sqlite2png", "v140dev_sqlalchemy_schemadisplay"]
 
 [project.urls]
 homepage = "https://github.com/abitrolly/sqlite2png"

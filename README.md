@@ -1,4 +1,5 @@
-This is a command line interface for `sqlalchemy_schemadisplay`
+This is a command line interface for
+[`sqlalchemy_schemadisplay`](https://github.com/fschulze/sqlalchemy_schemadisplay)
 tool by Florian Schulze.
 
 ### Usage
