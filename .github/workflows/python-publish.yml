@@ -2,8 +2,9 @@ name: Release Package
 
 on:
   push:
-    tags
-  workflow_dispatch
+    tags:
+      - '*'
+  workflow_dispatch:
 
 permissions:
   contents: read
