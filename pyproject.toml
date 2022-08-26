@@ -23,3 +23,6 @@ py-modules = ["sqlite2png", "v140dev_sqlalchemy_schemadisplay"]
 
 [project.urls]
 homepage = "https://github.com/abitrolly/sqlite2png"
+
+[project.scripts]
+sqlite2png = "sqlite2png:cli"
