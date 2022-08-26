@@ -42,6 +42,6 @@ See [./examples](./examples).
     {py} postgres://user:pwd@host/database
     {py} sqlite:////usr/share/my.db
 ```
-* [x] (2.1.4) install command line script with `pip`
-* [x] (2.1.4) add example DB to the repo (uses some public DBs)
+* [x] (1.1.4) install command line script with `pip`
+* [x] (1.1.4) add example DB to the repo (uses some public DBs)
 * [x] reproducuble .png (seems like it already is)
