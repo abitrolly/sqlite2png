@@ -41,10 +41,17 @@ jobs:
     - name: Build package
       run: python -m build
 
-    - name: Test package 
+    - name: Test package installs and runs
       run: |
         pip install dist/sqlite2png*.whl
         python -m sqlite2png
+
+    - name: Test examples are reproducible
+      run: |
+        cd examples
+        ./chinook.sh
+        git diff --exit-code
+        cd ..
 
   # https://help.github.com/en/actions/language-and-framework-guides/using-python-with-github-actions#publishing-to-package-registries
   #deploy:
