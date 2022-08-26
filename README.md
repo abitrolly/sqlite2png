@@ -13,7 +13,7 @@ The diagram is written into `db.png`.
 Install with pip and run as module.
 ```bash
 pip install sqlite2png
-python -m sqlite2png /usr/share/ibus-libpinyin/db/english.db
+sqlite2png /usr/share/ibus-libpinyin/db/english.db
 ```
 ```
 sqlite:////usr/share/ibus-libpinyin/db/english.db
@@ -31,17 +31,17 @@ under the hood. `Graphviz-cairo` is also recommended to improve image quality.
 
 See [./examples](./examples).
 
-### Roadmap
+### Roadmap / Changelog
 
-* [ ] install command line script with `pip`
-  * [ ] de-vendorize `sqlalchemy_schemadisplay` after it is released
+* [ ] de-vendorize `sqlalchemy_schemadisplay` after it is released
 * [ ] output .png to stdout
-* [x] reproducuble .png (seems like it already is)
 * [ ] option to show the image (needs PIL and image viewer)
 * [ ] option to diff the image
-* [ ] add example DB to the repo
 * [ ] support full urls
 ```
     {py} postgres://user:pwd@host/database
     {py} sqlite:////usr/share/my.db
 ```
+* [x] (2.1.4) install command line script with `pip`
+* [x] (2.1.4) add example DB to the repo (uses some public DBs)
+* [x] reproducuble .png (seems like it already is)
