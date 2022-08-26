@@ -4,14 +4,15 @@ tool by Florian Schulze.
 
 ### Usage
 
+From checkout without installing (needs `sqlalchemy` and `pydot`).
 ```bash
-sqlite2png.py sqlite.db
+./sqlite2png.py sqlite.db
 ```
 
-Example
-
+After installing with pip.
 ```bash
-$ python sqlite2png.py /usr/share/ibus-libpinyin/db/english.db
+$ pip install sqlite2png
+$ python -m sqlite2png /usr/share/ibus-libpinyin/db/english.db
 sqlite:////usr/share/ibus-libpinyin/db/english.db
 writing db.png
 ```
@@ -26,7 +27,7 @@ Graphviz-cairo is recommended upstream to improve image quality.
 * [ ] install command line script with `pip`
   * [ ] de-vendorize `sqlalchemy_schemadisplay` after it is released
 * [ ] output .png to stdout
-* [ ] reproducuble 
+* [x] reproducuble .png (seems like it already is)
 * [ ] option to show the image (needs PIL and image viewer)
 * [ ] option to diff the image
 * [ ] add example DB to the repo
