@@ -1,5 +1,7 @@
 `sqlite2png` tool generates .png image of database schema.
 
+[![PyPI](https://img.shields.io/pypi/v/sqlite2png)](https://pypi.org/project/sqlite2png/)
+
 ### Usage
 
 From checkout without installing (needs `sqlalchemy` and `pydot`).
