@@ -1,8 +1,4 @@
-Generates .png image of for database schema.
-
-`sqlite2png` is a CLI wrapper over
-[`sqlalchemy_schemadisplay`](https://github.com/fschulze/sqlalchemy_schemadisplay)
-lib by Florian Schulze.
+`sqlite2png` tool generates .png image of database schema.
 
 ### Usage
 
@@ -26,8 +22,10 @@ writing db.png
 
 ### About and examples
 
-The script uses SQLAlchemy, pydot and graphviz under the hood.
-Graphviz-cairo is recommended upstream to improve image quality.
+`sqlite2png` is a CLI wrapper over
+[`sqlalchemy_schemadisplay`](https://github.com/fschulze/sqlalchemy_schemadisplay)
+lib by Florian Schulze, which uses `SQLAlchemy`, `pydot` and `graphviz`
+under the hood. `Graphviz-cairo` is also recommended to improve image quality.
 
 See [./examples](./examples).
 
